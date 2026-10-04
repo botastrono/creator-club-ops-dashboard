@@ -1,0 +1,8 @@
+{
+  "source": "Soontra QA bug register snapshot",
+  "records": [
+    {"id":"FILE-005","title":"Uploaded .mov videos fail AI indexing with generic processing error","sourceRecord":"soontra-bugs-v2/bugs.json","status":"historical report; current retest needed","evidence":"Two .mov uploads appeared in AI Indexing and failed with the same generic processing error. Reported files: YouTube Final.mov, 153.5 MB; TikTok 111meg copy.mov, 56.6 MB."},
+    {"id":"FILE-004","title":"Cannot bulk-select files/videos and trigger indexing","sourceRecord":"soontra-bugs-v2/bugs.json","status":"historical workflow report; current retest needed","evidence":"No clear multi-select action was available to index or re-index a selected group of files or videos."},
+    {"id":"NAV-005","title":"Projects UI exposes raw Undefined / None priority values","sourceRecord":"soontra-bugs-v2/bugs.json and docs/qa/swarm/navigation-and-core.md","status":"historical report; current retest needed","evidence":"Unset project priority values were reported as raw Undefined or None in project views."}
+  ]
+}
