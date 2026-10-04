@@ -1,11 +1,9 @@
 {
-  "updatedAt": "2026-10-04T19:40:00Z",
+  "updatedAt": "2026-10-04T19:44:00Z",
   "health": "waiting",
   "summary": "Operations dashboard is live. Vista Instagram repair is propagating. Organic launch planning continues.",
   "needsMatt": [],
-  "qaItems": [
-    {"title":"Production mobile verification at native 390 by 844","owner":"Muse","ageStartedAt":"2026-10-04T19:40:00Z","severity":"P1","sourceUrl":"https://botastrono.github.io/creator-club-ops-dashboard/previews/mobile-390x844.png"}
-  ],
+  "qaItems": [],
   "systems": [
     {"name":"Creator Club site","status":"operational","severity":"P0","lastGoodAt":"2026-10-04T19:18:00Z","detail":"Core 3.7.13 live"},
     {"name":"Vista Social","status":"waiting","severity":"P1","lastGoodAt":"2026-10-04T17:00:00Z","detail":"Instagram repair propagating; Facebook, LinkedIn, Threads usable"},
@@ -13,7 +11,7 @@
     {"name":"Paid media","status":"held","severity":"P1","lastGoodAt":null,"detail":"No spend approved or released"}
   ],
   "missions": [
-    {"id":"CC-OPS-001","title":"Live operations dashboard","owner":"OpenClaw","qa":"Muse","status":"waiting","waitingOn":"qa","severity":"P1","priority":"critical","alertLevel":"at risk","trend":"yellow","updatedAt":"2026-10-04T19:40:00Z","dueAt":"2026-10-04T23:59:00Z","cost":"USD 0","experimentId":"None","sourceUrl":"https://botastrono.github.io/creator-club-ops-dashboard/previews/mobile-390x844.png","next":"Receive final production mobile QA, then automate push health checks","blocker":"Production approval pending native 390 by 844 mobile review","kpi":"Public dashboard available and readable on mobile","recovery":"GitHub Pages redeploys from the main branch. Use the repository history for rollback."},
+    {"id":"CC-OPS-001","title":"Live operations dashboard","owner":"OpenClaw","qa":"Muse","status":"done","waitingOn":"none","severity":"P1","priority":"critical","alertLevel":"on track","trend":"green","updatedAt":"2026-10-04T19:44:00Z","dueAt":"2026-10-04T23:59:00Z","cost":"USD 0","experimentId":"None","sourceUrl":"https://botastrono.github.io/creator-club-ops-dashboard/","next":"Automate push health checks and signed updates","blocker":"None","kpi":"Public dashboard available and readable on mobile","recovery":"GitHub Pages redeploys from the main branch. Use the repository history for rollback."},
     {"id":"CC-VISTA-001","title":"Verify Instagram connection repair","owner":"OpenClaw","qa":"Muse","status":"waiting","waitingOn":"external","severity":"P1","priority":"high","alertLevel":"at risk","trend":"yellow","updatedAt":"2026-10-04T19:17:00Z","dueAt":"2026-10-05T00:30:00Z","cost":"USD 0","experimentId":"None","sourceUrl":"https://discord.com/channels/1556339040217731133/1556341430677667982/1556384667223990529","next":"Read back handle and warning after Vista propagation","blocker":"Vista requested a few hours to update","kpi":"@creator.club.official shown with no warning","recovery":"Wait for Vista propagation. Do not reconnect again. Keep Instagram held until readback passes."},
     {"id":"CC-ORG-001","title":"Founding Status organic experiment","owner":"OpenClaw","qa":"Muse","status":"planned","priority":"high","alertLevel":"on track","trend":"green","updatedAt":"2026-10-04T19:18:00Z","dueAt":"2026-10-06T17:00:00Z","cost":"USD 0","experimentId":"CC-FN-001A/B","sourceUrl":"https://discord.com/channels/1556339040217731133/1556341430677667982/1556385089712296073","next":"Create first brief and hook variants","blocker":"None","kpi":"Verified members by channel and campaign","recovery":"If a hook earns attention but no verified members, revise offer clarity before producing more variants."},
     {"id":"CC-ATTR-001","title":"Persist campaign attribution","owner":"OpenClaw","qa":"Muse","status":"planned","priority":"high","alertLevel":"at risk","trend":"yellow","updatedAt":"2026-10-04T19:18:00Z","dueAt":"2026-10-08T17:00:00Z","cost":"USD 0 until paid probe","experimentId":"All paid tests","sourceUrl":"https://discord.com/channels/1556339040217731133/1556341430677667982/1556385089712296073","next":"Store experiment ID and UTMs on member records","blocker":"Must be verified before paid probe","kpi":"Every verified member attributable to campaign and creative","recovery":"Keep paid media held. Continue channel-level organic measurement until first-party attribution passes."}
@@ -32,6 +30,7 @@
     {"name":"Useful Network","order":2,"status":"approved direction","metric":"Verified members plus referral activation"}
   ],
   "activity": [
+    {"at":"2026-10-04T19:44:00Z","actor":"Muse","text":"Approved the native mobile dashboard for deployment."},
     {"at":"2026-10-04T19:36:00Z","actor":"OpenClaw + Muse","text":"Dashboard passed desktop and mobile QA and deployed live."},
     {"at":"2026-10-04T19:18:00Z","actor":"OpenClaw + Muse","text":"Locked Founding Status first and Useful Network second."},
     {"at":"2026-10-04T19:17:00Z","actor":"Matt","text":"Repaired the Vista Instagram connection; propagation pending."},
