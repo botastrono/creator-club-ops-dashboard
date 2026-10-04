@@ -1,10 +1,10 @@
 {
-  "updatedAt":"2026-10-04T19:45:00Z",
+  "updatedAt":"2026-10-04T20:12:00Z",
   "projects":[
     {"name":"Team Operations","description":"Live missions, QA, health, launch gates, and Matt alerts.","status":"live","owner":"OpenClaw + Muse","url":"./"},
     {"name":"Soontra Bugs and Improvements","description":"Developer-ready defects, workflow gaps, ideas, and customer requests.","status":"live","owner":"OpenClaw + Muse","url":"./bugs.html"},
-    {"name":"Soontra Workflow Audit","description":"Live product audit and Creator Club content-memory pilot.","status":"working","owner":"OpenClaw","url":"./"},
-    {"name":"Creator Club 30-Day Command Center","description":"Organic tests, launch gates, attribution, and paid probe rules.","status":"local","owner":"OpenClaw","url":"https://discord.com/channels/1556339040217731133/1556341430677667982/1556373096141693080"},
-    {"name":"Creator Club Experiment Register","description":"Experiment IDs, hypotheses, hooks, CTAs, and result fields.","status":"local","owner":"OpenClaw + Muse","url":"https://discord.com/channels/1556339040217731133/1556341430677667982/1556385089712296073"}
+    {"name":"Soontra Workflow Audit","description":"Live product audit and Creator Club content-memory pilot.","status":"working","owner":"OpenClaw","url":"./workflow-audit.html"},
+    {"name":"Creator Club 30-Day Command Center","description":"Organic tests, launch gates, attribution, and paid probe rules.","status":"working","owner":"OpenClaw","url":"https://discord.com/channels/1556339040217731133/1556341430677667982/1556373096141693080"},
+    {"name":"Creator Club Experiment Register","description":"Experiment IDs, hypotheses, hooks, CTAs, and result fields.","status":"working","owner":"OpenClaw + Muse","url":"https://discord.com/channels/1556339040217731133/1556341430677667982/1556385089712296073"}
   ]
 }

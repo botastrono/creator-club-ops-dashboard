@@ -1,0 +1,13 @@
+{
+  "updatedAt": "2026-10-04T20:12:00Z",
+  "overall": "working",
+  "rows": [
+    {"step":"Intake","criterion":"Source-labeled material only","verdict":"testing","evidence":"Live current-build test underway","fallback":"Use one Creator Club project with a source link on every item.","gap":"None logged yet"},
+    {"step":"Index","criterion":"No draft from unindexed material","verdict":"testing","evidence":"Drive and indexing readback underway","fallback":"Do not draft until the asset shows indexed/ready.","gap":"Historical MOV failure and bulk re-index need current retest"},
+    {"step":"Memory join","criterion":"Claims trace to approved source material","verdict":"testing","evidence":"Astrono grounding audit underway","fallback":"Attach the exact source asset and claim note to the project.","gap":"Automatic approval-memory behavior is not yet proven"},
+    {"step":"Draft","criterion":"Platform-specific output with source trace","verdict":"testing","evidence":"Creator Club pilot not yet complete","fallback":"Create native variants manually from the approved brief.","gap":"Automated cross-channel drafting is not yet proven"},
+    {"step":"Review and approval","criterion":"Explicit approved, rejected, or pending state","verdict":"manual","evidence":"Matt remains the final word-for-word approval gate","fallback":"Record Muse QA, OpenClaw QA, and Matt approval in the project before scheduling.","gap":"Native end-to-end approval automation is not yet proven"},
+    {"step":"Publish","criterion":"Nothing ambiguous publishes","verdict":"manual","evidence":"Vista is the approved last-mile scheduler; Instagram readback pending","fallback":"Schedule only approved Facebook, LinkedIn, and Threads posts. Hold Instagram if marginal.","gap":"Soontra-to-Vista automatic handoff is not yet proven"},
+    {"step":"Learn","criterion":"Results tie back to post and variant within 7 days","verdict":"blocked","evidence":"Post-level first-party attribution is not yet persisted","fallback":"Use unique UTMs and reconcile results manually by channel and campaign.","gap":"Performance return and approval-learning loop require instrumentation"}
+  ]
+}
